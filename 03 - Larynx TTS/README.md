@@ -1,6 +1,12 @@
 TTS Pytorch CPU
 ===============
-![](samples/test.mp4)
+
+<video controls width="250">
+ <source src="samples/test.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
 ### python3.9
 ```
 python -m venv .venv && \
@@ -16,7 +22,7 @@ apt-get -y install libopenblas-base libgomp1 libatomic1
 ### voices:
 ```
 apt-get install p7zip-full
-7za x aiohttp_tts_app/voices/voices.7z.001 -oaiohttp_tts_app/voices/
+7za x voices/archive/voices.7z.001 -ovoices/
 ```
 ### Run:
 ###### /
