@@ -1,8 +1,9 @@
 TTS Pytorch CPU
 ===============
 
+<video controls width="250" src="samples/test.mp4"></video>
 
-https://github.com/Martin1403/Pytorch/tree/master/03%20-%20Larynx%20TTS/samples/test.mp4
+
 
 ### python3.9
 ```
